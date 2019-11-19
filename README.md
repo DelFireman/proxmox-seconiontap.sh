@@ -10,6 +10,6 @@ Replace "span1" with any name you would like the object to have, or leave it as 
 
 Save this script file in /root/ and then set up a crontab job to run it once 60 seconds after a reboot. Type `crontab -e` and add the following line:
 
-`@reboot sleep 60 && /root/proxmox-seconiontap.sh`
+`@reboot sleep 120 && /root/proxmox-seconiontap.sh`
 
 Log output from the script will be created in /root/proxmox-seconiontap.log
